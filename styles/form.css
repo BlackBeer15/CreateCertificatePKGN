@@ -1,0 +1,82 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 40px;
+}
+
+.text-input {
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    outline-color: rgba(242,85,44,1);
+}
+
+
+.first-info {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.first-info>input {
+    width: 100%;
+}
+
+.select-opt {
+    height: 60px;
+    box-sizing: border-box;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    outline-color: rgba(242,85,44,1);
+    text-align: center;
+}
+
+.lable-cert {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: -40px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 60px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(242,85,44,1) 0%, rgba(214,69,30,1) 100%);
+}
+
+.date-rate {
+    display: none;
+    gap: 40px;
+    align-items: center;
+}
+
+.date-rate>input {
+    width: 100%;
+}
+
+span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.check-stat {
+    text-align: center;
+}
+
+.lable-check {
+    margin-bottom: -30px;
+}

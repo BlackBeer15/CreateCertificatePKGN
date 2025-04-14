@@ -1,0 +1,59 @@
+.message-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.message-content {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    box-sizing: border-box;
+    row-gap: 50px;
+}
+
+.message-content>p:first-child {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.message-text {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.message-content>button {
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 60px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(242,85,44,1) 0%, rgba(214,69,30,1) 100%);
+}
+
+.id-ticket {
+    font-size: 200px;
+    font-weight: 900;
+}

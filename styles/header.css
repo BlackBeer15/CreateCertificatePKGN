@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 50px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    height: 100%;
+    display: flex;
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    gap: 25px;
+    align-items: center;
+}
+
+header a p {
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 30px;
+    width: 50%;
+}
+
+header a img {
+    height: 98%;
+    width: auto;
+}
+
+header h1 {
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 900;
+}

@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 200px);
+}
+
+.button-wrapper {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.button-wrapper a {
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(180deg, rgba(242,85,44,1) 0%, rgba(255,123,88,1) 100%);
+    width: 100%;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.button-wrapper a:hover {
+    width: 95%;
+    padding: 25px 0;
+    background: linear-gradient(180deg, rgba(242,85,44,1) 0%, rgba(214,69,30,1) 100%);
+}

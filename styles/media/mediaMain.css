@@ -1,0 +1,49 @@
+@media (orientation: portrait) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    header a {
+        height: 350px;
+    }
+
+    header a p {
+        display: none;
+    }
+
+    header>h1 {
+        font-size: 15vw;
+    }
+
+    .button-wrapper {
+        width: 80%;
+    }
+
+    .button-wrapper a {
+        font-size: 80px;
+    }
+
+    main {
+        height: 55%;
+    }
+
+    .text-input {
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .lable-cert {
+        font-size: 50px;
+    }
+
+    .select-opt {
+        height: 80px;
+        font-size: 40px;
+    }
+
+    input[type="submit"] {
+        height: 80px;
+        font-size: 50px;
+    }
+}
